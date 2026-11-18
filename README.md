@@ -1,6 +1,6 @@
 ﻿# ELEC 3 - Node.js
 
-Student: [YOUR FULL NAME]
+Student: Jessie B. Maralit
 Section: IV-BSIT A
 Instructor: Carl Gustaf Patrik B. Ferrer
 
