@@ -78,14 +78,6 @@ From the repository root:
 
 [N1 Package Management Answers](set1/n1-setup/N1_answers.docx)
 
-## GitHub Workflow
-
-All Set 1 activities are developed on the set-1 branch.
-
-Each activity has at least two meaningful commits.
-
-The node_modules folder is excluded using .gitignore.
-
 ## Set 2 Activities
 
 N4: Basic HTTP Server
