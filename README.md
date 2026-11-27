@@ -1,80 +1,66 @@
-
+﻿
 # ELEC 3 - Node.js
 
-Student: Jessie B. Maralit  
-Section: IV-BSIT A  
-Course: ELEC 3 - Node.js  
+Student: Jessie B. Maralit
+Section: IV-BSIT A
+Course: ELEC 3 - Node.js
 Instructor: Carl Gustaf Patrik B. Ferrer
 
-## Self-Paced Learning Activities
+## Set 1 Activities
 
-### Set 1:
+N1: [Project Setup and Package Management](set1/n1-setup/)
+- Initialize a Node.js project using npm.
+- Install regular and development dependencies.
+- Configure package.json and run npm start.
 
-N1: [Project Setup and Package Management](set1/n1-setup/)  
-Initialize a Node.js project, install dependencies, configure package.json, and run a program using npm start.
+N2: [Modular Calculator](set1/n2-calculator/)
+- Perform addition, subtraction, multiplication, division, and average.
+- Use custom modules, require(), module.exports, and process.argv.
+- Handle division by zero and unknown operations.
 
-N2: [Modular Calculator](set1/n2-calculator/)  
-A command-line calculator that uses custom modules for addition, subtraction, multiplication, division, and average.
-
-N3: [File Manager with fs and path](set1/n3-file-manager/)  
-A Node.js application that creates, reads, updates, deletes, and lists text files using the built-in fs and path modules.
-
-### Set 2:
-
-N4: Basic HTTP Server  
-N5: REST-style API  
-N6: Middleware and API Testing  
-
-Set 2 activities will be added after implementation.
+N3: [File Manager](set1/n3-file-manager/)
+- Create, read, update, delete, and list text files.
+- Use the built-in fs and path modules.
+- Handle missing files.
 
 ## How to Run
 
 ### N1 - Project Setup
 
-Open a terminal in the repository root.
+From the repository root:
 
-```powershell
-cd set1/n1-setup
-npm install
-npm start
-```
+1. cd set1/n1-setup
+2. npm install
+3. npm start
 
-N1 uses the dayjs package to display the current date and time.
+To return to the repository root: cd ../..
 
 ### N2 - Modular Calculator
 
-Run from the repository root:
+From the repository root:
 
-```powershell
-node set1/n2-calculator/index.js add 12 8
-node set1/n2-calculator/index.js subtract 20 5
-node set1/n2-calculator/index.js multiply 6 7
-node set1/n2-calculator/index.js divide 20 4
-node set1/n2-calculator/index.js average 80 90 100
-```
+- node set1/n2-calculator/index.js add 12 8
+- node set1/n2-calculator/index.js subtract 20 5
+- node set1/n2-calculator/index.js multiply 6 7
+- node set1/n2-calculator/index.js divide 20 4
+- node set1/n2-calculator/index.js average 80 90 100
 
-Error testing:
+Error tests:
 
-```powershell
-node set1/n2-calculator/index.js divide 10 0
-node set1/n2-calculator/index.js unknown 10 5
-```
+- node set1/n2-calculator/index.js divide 10 0
+- node set1/n2-calculator/index.js unknown 10 5
 
 ### N3 - File Manager
 
-Run from the repository root:
+From the repository root:
 
-```powershell
-node set1/n3-file-manager/index.js list
-node set1/n3-file-manager/index.js read notes.txt
-node set1/n3-file-manager/index.js update notes.txt "New information"
-node set1/n3-file-manager/index.js create sample.txt "Hello"
-node set1/n3-file-manager/index.js delete sample.txt
-```
+- node set1/n3-file-manager/index.js create sample.txt "Hello"
+- node set1/n3-file-manager/index.js read sample.txt
+- node set1/n3-file-manager/index.js update sample.txt "New text"
+- node set1/n3-file-manager/index.js list
+- node set1/n3-file-manager/index.js delete sample.txt
 
-The program stores its text files inside the n3-file-manager/files folder.
-
-## Activity Screenshots
+## Screenshots
 
 ### N1 - Project Setup
 
@@ -86,12 +72,26 @@ The program stores its text files inside the n3-file-manager/files folder.
 
 ### N3 - File Manager
 
-![N3 File Manager List](set1/n3-file-manager/screenshots/n3_list.png)
+![N3 File Manager Output](set1/n3-file-manager/screenshots/n3_list.png)
+
+## Written Answers
+
+[N1 Package Management Answers](set1/n1-setup/N1_answers.docx)
 
 ## GitHub Workflow
 
-The Set 1 activities were developed in the set-1 branch using meaningful commits.
+All Set 1 activities are developed on the set-1 branch.
 
-The completed set will be merged into main through a GitHub pull request.
+Each activity has at least two meaningful commits.
 
 The node_modules folder is excluded using .gitignore.
+
+## Set 2 Activities
+
+N4: Basic HTTP Server
+
+N5: REST-style API
+
+N6: Middleware and API Testing
+
+Set 2 activities will be added after implementation.
