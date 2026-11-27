@@ -8,7 +8,7 @@ Instructor: Carl Gustaf Patrik B. Ferrer
 
 ## Self-Paced Learning Activities
 
-### Set 1 - November 23-29, 2026
+### Set 1:
 
 N1: [Project Setup and Package Management](set1/n1-setup/)  
 Initialize a Node.js project, install dependencies, configure package.json, and run a program using npm start.
@@ -19,7 +19,7 @@ A command-line calculator that uses custom modules for addition, subtraction, mu
 N3: [File Manager with fs and path](set1/n3-file-manager/)  
 A Node.js application that creates, reads, updates, deletes, and lists text files using the built-in fs and path modules.
 
-### Set 2 - November 30 to December 6, 2026
+### Set 2:
 
 N4: Basic HTTP Server  
 N5: REST-style API  
